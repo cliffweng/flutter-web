@@ -58,7 +58,7 @@ class _MyAppState extends State<MyApp> {
                   onPressed: () async { await widget.browser.open(url: Uri.parse("https://www.alz.org/"), options: options);}),
               ElevatedButton(
                   child: Text("Contact the team"),
-                  onPressed: () async { await widget.browser.open(url: Uri.parse("http://julianweng.com/"), options: options);}),
+                  onPressed: () async { await widget.browser.open(url: Uri.parse("http://cliffweng.com/"), options: options);}),
 
             ]
         ),
